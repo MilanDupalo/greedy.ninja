@@ -90,3 +90,13 @@
 .gn__navbar-manu_container-links-sign {
   display: none;
 }
+
+@media screen and (max-width: 1050px) {
+  .gn__navbar-links_container {
+    display: none;
+  }
+
+  .gn__navbar-manu {
+    display: flex;
+  }
+}

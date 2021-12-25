@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import {
-  RiManu3Line,
-  RiArrowDropRightLine,
-  RiCloseLine,
-  RiArrowRightCircleFill,
-} from "react-icons/ri";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { CgClose } from "react-icons/cg";
+
 // import logo from "../../assets/logo.png";
 import "./navbar.css";
 
@@ -62,13 +59,13 @@ export const Navbar = () => {
 
       <section className="gn__navbar-manu">
         {toggleManu ? (
-          <RiArrowDropRightLine
+          <CgClose
             color="#fff"
             size={27}
             onClick={() => setToggleManu(false)}
           />
         ) : (
-          <RiArrowRightCircleFill
+          <GiHamburgerMenu
             color="#fff"
             size={27}
             onClick={() => setToggleManu(true)}

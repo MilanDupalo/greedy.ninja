@@ -18,6 +18,10 @@ ul {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 /* GRADIENT BACKGROUND */
 .gradient__bg {
   background: -moz-radial-gradient(
