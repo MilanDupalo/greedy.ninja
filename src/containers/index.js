@@ -1,6 +1,6 @@
-export { defult as Blob } from "./blog/Blog";
-export { defult as Feature } from "./features/Features";
-export { defult as Footer } from "./footers/Footer";
-export { defult as Possibility } from "./possibilities/Possibilities";
-export { defult as WhatGreedyNinja } from "./whatGreedyNinja/WhatGreedyNinja";
-export { defult as Header } from "./header/Header";
+export { default as Blog } from "./blog/Blog";
+export { default as Features } from "./features/Features";
+export { default as Footer } from "./footer/Footer";
+export { default as Possibility } from "./possibility/Possibility";
+export { default as WhatGreedyNinja } from "./whatGreedyNinja/WhatGreedyNinja";
+export { default as Header } from "./header/Header";
