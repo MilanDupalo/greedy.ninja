@@ -100,3 +100,27 @@
     display: flex;
   }
 }
+@media screen and (max-width: 700px) {
+  .gn__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gn__navbar {
+    padding: 2rem;
+  }
+  .gn__navbar-sign {
+    display: none;
+  }
+
+  .gn__navbar-manu_container {
+    top: 20px;
+  }
+  .gn__navbar-manu_container-links-sign {
+    display: block;
+    text-align: right;
+    width: 100%;
+    text-align: center;
+  }
+}
