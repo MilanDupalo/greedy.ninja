@@ -7,31 +7,37 @@ export const Header = () => {
   return (
     <header className="header section__padding" id="home">
       <section className="header-content">
-        <h1 className="gradient__text">
+        <h1 className="header-content-title gradient__text">
           Lorem ipsum dolor sit amet consectetur adipisicing
         </h1>
-        <p>
+        <p className="header-content-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque
           ipsum sequi quia minus quis, sit doloribus debitis possimus vitae! Id
           itaque voluptatum error libero maxime necessitatibus vel?
         </p>
 
         <form action="" className="header-content__input">
-          <input type="email" placeholder=" Your Email Address" />
-          <button type="button" className="btn">
+          <input
+            className="form-input"
+            type="email"
+            placeholder=" Your Email Address"
+          />
+          <button type="button" className="btn header-btn">
             Get Started
           </button>
         </form>
 
         <section className="header-content__people">
           <figure>
-            <img src={people} />
+            <img className="people-img" src={people} alt="people" />
           </figure>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          <p className="people-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          </p>
         </section>
 
-        <figure className="header-image">
-          <img src={ai} alt="ai" />
+        <figure className="header-image-box">
+          <img className="header-image" src={ai} alt="ai" />
         </figure>
       </section>
     </header>
