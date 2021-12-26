@@ -59,7 +59,7 @@ li {
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkid-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 /* PADDING AND MARGIN SECTIONS */
