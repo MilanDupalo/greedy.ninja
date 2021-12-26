@@ -31,15 +31,12 @@ export const Header = () => {
           <figure>
             <img className="people-img" src={people} alt="people" />
           </figure>
-          <p className="people-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit
-          </p>
+          <p className="people-text">Lorem ipsum dolor sit amet consectetur</p>
         </section>
-
-        <figure className="header-image-box">
-          <img className="header-image" src={ai} alt="ai" />
-        </figure>
       </section>
+      <figure className="header-image-box">
+        <img className="header-img" src={ai} alt="ai" />
+      </figure>
     </header>
   );
 };
