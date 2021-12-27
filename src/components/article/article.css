@@ -23,6 +23,7 @@
   justify-content: space-between;
   padding-top: 1rem 1.5rem;
   height: 100%;
+  padding: 1rem;
 }
 
 .card-content-heading-date {
