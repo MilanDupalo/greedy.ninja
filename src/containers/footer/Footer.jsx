@@ -18,7 +18,7 @@ export const Footer = () => {
 
       <section className="footer-links">
         <figure className="footer-links-logo">
-          logo
+          <h5 className="footer-logo">Logo</h5>
           <figcaption className="footer-links-text">
             {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
@@ -68,7 +68,10 @@ export const Footer = () => {
         </section>
       </section>
       <section className="footer-copyright">
-        © 2021 GPT-3. All rights reserved.
+        <h5 className="footer-copyright-text">
+          {" "}
+          © 2021 GPT-3. All rights reserved.
+        </h5>
       </section>
     </footer>
   );
