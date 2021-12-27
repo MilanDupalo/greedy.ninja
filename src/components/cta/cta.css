@@ -43,3 +43,33 @@
   font-size: 16px;
   line-height: 30px;
 }
+
+@media screen and (max-width: 650px) {
+  .cta {
+    flex-direction: column;
+  }
+
+  .cta-button-box {
+    margin: 2rem 0 0 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .cta {
+    margin: 4rem 2rem;
+  }
+
+  .cta-content-subtitle {
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+
+  .cta-content-title {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .cta-button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
