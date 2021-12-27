@@ -4,7 +4,7 @@ import "./whatGreedyNinja.css";
 
 export const WhatGreedyNinja = () => {
   return (
-    <article className="about section__margin" id="whatGreedyNinja">
+    <article className="about section__margin" id="WhatGreedyNinja">
       <section className="about-feature">
         <Feature
           title="About us"

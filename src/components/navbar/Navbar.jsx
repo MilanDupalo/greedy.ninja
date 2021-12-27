@@ -13,7 +13,7 @@ const Manu = () => (
       </a>
     </li>
     <li className="navbar-item">
-      <a className="navbar-links" href="#about-us">
+      <a className="navbar-links" href="#WhatGreedyNinja">
         About us
       </a>
     </li>
