@@ -1,4 +1,5 @@
 import React from "react";
+import Feature from "../../components/features/Feature";
 import "./features.css";
 
 const featuresData = [
@@ -34,7 +35,15 @@ export const Features = () => {
         </a>
       </section>
 
-      <section className="features-containers"></section>
+      <section className="features-containers">
+        {featuresData.map((item, index) => (
+          <Feature
+            title={item.title}
+            text={item.text}
+            key={item.title + index}
+          />
+        ))}
+      </section>
     </article>
   );
 };
