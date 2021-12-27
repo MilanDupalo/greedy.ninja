@@ -6,7 +6,11 @@ export const Possibility = () => {
   return (
     <section className="possibility section__padding" id="possibility">
       <figure className="possibility-image-box">
-        <img src={possibility} alt="possibilityImage" />
+        <img
+          className="possibility-image"
+          src={possibility}
+          alt="possibilityImage"
+        />
       </figure>
       <section className="possibility-content">
         <h4 className="possibility-content-subtitle">
@@ -15,7 +19,7 @@ export const Possibility = () => {
         <h3 className="gradient__text possibility-content-title">
           Lorem ipsum dolor sit amet consectetur.
         </h3>
-        <p>
+        <p className="possibility-content-text">
           Yet bed any for travelling assistance indulgence unpleasing. Not
           thoughts all exercise blessing. Indulgence way everything joy
           alteration boisterous the attachment. Party we years to order allow
