@@ -5,12 +5,12 @@ export const Article = ({ imgUrl, date, title }) => {
   return (
     <article className="card">
       <figure className="card-image-box">
-        <img src={imgUrl} alt="blogimg" />
+        <img className="card-image" src={imgUrl} alt="blogimg" />
       </figure>
       <section className="card-content">
         <header className="card-content-heading">
-          <p>{date}</p>
-          <h3>{title}</h3>
+          <p className="card-content-heading-date">{date}</p>
+          <h3 className="card-content-heading-text">{title}</h3>
         </header>
         <a className="card-content-link" href="#">
           Read Full story
