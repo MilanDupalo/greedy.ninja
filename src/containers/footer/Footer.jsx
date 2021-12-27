@@ -21,8 +21,7 @@ export const Footer = () => {
           <h5 className="footer-logo">Logo</h5>
           <figcaption className="footer-links-text">
             {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            pariatur maiores qui sit mollitia!
+            Lorem ipsum dolor sit amet consectetur.
           </figcaption>
         </figure>
 

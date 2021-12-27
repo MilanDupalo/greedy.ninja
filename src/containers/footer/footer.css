@@ -47,11 +47,12 @@
   flex-direction: row;
   width: 100%;
   text-align: left;
+  margin: 2rem 0;
 }
 
 .footer-links-group {
   width: 250px;
-  margin: 1rem;
+  margin: 1rem 0;
   display: flex;
   flex-direction: column;
 }
@@ -73,6 +74,7 @@
   font-size: 12px;
   line-height: 14px;
   color: #ffffff;
+  margin: 1rem 0;
 }
 
 .footer-links-group-title {
@@ -100,4 +102,18 @@
   font-size: 12px;
   line-height: 14px;
   color: #ffffff;
+}
+
+@media screen and (max-width: 850px) {
+  .footer-heading-title {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer-heading-title {
+    font-size: 34px;
+    line-height: 42px;
+  }
 }
