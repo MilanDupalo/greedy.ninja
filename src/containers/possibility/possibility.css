@@ -49,3 +49,17 @@
   line-height: 30px;
   color: var(--color-subtext);
 }
+
+@media screen and (max-width: 1050px) {
+  .possibility {
+    flex-direction: column;
+  }
+
+  .possibility-image-box {
+    margin: 1rem 0;
+  }
+
+  .possibility-content {
+    margin: 2rem;
+  }
+}
